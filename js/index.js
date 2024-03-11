@@ -345,9 +345,9 @@ window.onload = function () {
 
 $(window).resize(function(){
     if (window.innerWidth < 770) {
-        $(".poster__tit1>img").attr("src","/img/index_img/1-1(white).png");
+        $(".poster__tit1>img").attr("src","./img/index_img/1-1(white).png");
     } else {
-        $(".poster__tit1>img").attr("src","/img/index_img/1-1.png");
+        $(".poster__tit1>img").attr("src","./img/index_img/1-1.png");
     }
 });
 
