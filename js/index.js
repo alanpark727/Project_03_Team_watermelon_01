@@ -351,6 +351,16 @@ $(window).resize(function(){
     }
 });
 
+$(document).ready(function(){
+    let windowWidth = $(window).width();
+    if (windowWidth < 770) {
+        $(".poster__tit1>img").attr("src","./img/index_img/1-1(white).png");
+    } else {
+        $(".poster__tit1>img").attr("src","./img/index_img/1-1.png");
+    }
+})
+
+
 $(window).scroll(function(){
     var
     h_1 = $(document).scrollTop();
